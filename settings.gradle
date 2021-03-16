@@ -1,0 +1,2 @@
+include ':viUtils', ':hiobjectscan', ':tfandroid', ':hiscanlite', 'caffeAndroid', ':seetaFace', ':hiscan'
+include ':openCVLibrary310'

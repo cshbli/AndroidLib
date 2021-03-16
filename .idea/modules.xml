@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidLib.iml" filepath="$PROJECT_DIR$/AndroidLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/caffeAndroid/caffeAndroid.iml" filepath="$PROJECT_DIR$/caffeAndroid/caffeAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hiobjectscan/hiobjectscan.iml" filepath="$PROJECT_DIR$/hiobjectscan/hiobjectscan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hiscan/hiscan.iml" filepath="$PROJECT_DIR$/hiscan/hiscan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hiscanlite/hiscanlite.iml" filepath="$PROJECT_DIR$/hiscanlite/hiscanlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" filepath="$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seetaFace/seetaFace.iml" filepath="$PROJECT_DIR$/seetaFace/seetaFace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tfandroid/tfandroid.iml" filepath="$PROJECT_DIR$/tfandroid/tfandroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viUtils/viUtils.iml" filepath="$PROJECT_DIR$/viUtils/viUtils.iml" />
+    </modules>
+  </component>
+</project>

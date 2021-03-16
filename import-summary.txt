@@ -1,0 +1,83 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .gradle/
+* .gradle/2.10/
+* .gradle/2.10/taskArtifacts/
+* .gradle/2.10/taskArtifacts/cache.properties
+* .gradle/2.10/taskArtifacts/cache.properties.lock
+* .gradle/2.10/taskArtifacts/compilationState.bin
+* .gradle/2.10/taskArtifacts/fileHashes.bin
+* .gradle/2.10/taskArtifacts/fileSnapshots.bin
+* .gradle/2.10/taskArtifacts/outputFileStates.bin
+* .gradle/2.10/taskArtifacts/taskArtifacts.bin
+* .gradle/2.10/tasks/
+* .gradle/2.10/tasks/_app_compileDebugJavaWithJavac/
+* .gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/
+* .gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin
+* .gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock
+* .gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/
+* .gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin
+* .gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock
+* .gradle/2.2.1/
+* .gradle/2.2.1/taskArtifacts/
+* .gradle/2.2.1/taskArtifacts/cache.properties
+* .gradle/2.2.1/taskArtifacts/cache.properties.lock
+* .gradle/2.2.1/taskArtifacts/fileHashes.bin
+* .gradle/2.2.1/taskArtifacts/fileSnapshots.bin
+* .gradle/2.2.1/taskArtifacts/outputFileStates.bin
+* .gradle/2.2.1/taskArtifacts/taskArtifacts.bin
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/gradle.xml
+* .idea/libraries/
+* .idea/libraries/play_services_base_8_1_0.xml
+* .idea/libraries/play_services_basement_8_1_0.xml
+* .idea/libraries/play_services_vision_8_1_0.xml
+* .idea/libraries/support_annotations_22_2_0.xml
+* .idea/libraries/support_v4_22_2_0.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/runConfigurations.xml
+* .idea/workspace.xml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => seetaFace/src/main/AndroidManifest.xml
+* assets/ => seetaFace/src/main/assets/
+* jni/ => seetaFace/src/main/jni/
+* libs/arm64-v8a/libseeta_fa_lib.so => seetaFace/src/main/jniLibs/arm64-v8a/libseeta_fa_lib.so
+* libs/arm64-v8a/libseeta_facedet_jni.so => seetaFace/src/main/jniLibs/arm64-v8a/libseeta_facedet_jni.so
+* libs/arm64-v8a/libviplnet.so => seetaFace/src/main/jniLibs/arm64-v8a/libviplnet.so
+* libs/arm64-v8a/libviplnet_jni.so => seetaFace/src/main/jniLibs/arm64-v8a/libviplnet_jni.so
+* res/ => seetaFace/src/main/java/
+* src/ => seetaFace/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

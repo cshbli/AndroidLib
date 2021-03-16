@@ -1,0 +1,128 @@
+
+{
+	"buildFiles" : [ "/home/hongbing/Projects/PhotoAlbum/seetaFace/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/hongbing/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"viplnet-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "viplnet",
+			"buildCommand" : "/home/hongbing/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64 --target viplnet",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/src/bias_adder_net.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/src/blob.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/src/bn_net.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/src/common_net.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/src/conv_net.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/src/eltwise_net.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/src/inner_product_net.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/src/log.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/src/math_functions.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/src/max_pooling_net.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/src/net.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/src/pad_net.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/src/spatial_transform_net.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/src/tform_maker_net.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/tools/aligner.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/hongbing/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hongbing/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dviplnet_EXPORTS -I../../../../src/main/cpp/FaceIdentification/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/hongbing/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/src/main/cpp/FaceIdentification/tools/face_identification.cpp",
+					"workingDirectory" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/home/hongbing/Projects/PhotoAlbum/seetaFace/build/intermediates/cmake/release/obj/x86_64/libviplnet.so",
+			"toolchain" : "13769978378052246590"
+		}
+	},
+	"toolchains" : 
+	{
+		"13769978378052246590" : 
+		{
+			"cCompilerExecutable" : "/home/hongbing/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/hongbing/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

@@ -1,0 +1,5 @@
+__pycache__/
+build/
+**/.DS_Store
+seetaFace/src/main/assets/seeta_fr_v1.0.bin
+

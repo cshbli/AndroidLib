@@ -1,0 +1,3 @@
+/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/mips/CMakeFiles/edit_cache.dir
+/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/mips/CMakeFiles/rebuild_cache.dir
+/home/hongbing/Projects/PhotoAlbum/seetaFace/.externalNativeBuild/cmake/release/mips/CMakeFiles/viplnet.dir
